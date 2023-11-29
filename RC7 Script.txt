@@ -1,6 +1,6 @@
 --MADE BY OneLegend (NOT THE SCRIPT) LOCAL SCRIPT: Go to line 3 and put your name where it says "YOUR NAME HERE"
 
-me = game.Players:findFirstChild("SamirBossi244")
+me = game.Players:findFirstChild("myd_im0m")
 if me == nil then
 me = game.Players.Player
 end
