@@ -63,7 +63,7 @@ exe.TextSize = 14.000
 exe.MouseButton1Down:connect(function()
 loadstring(input.Text)()
     output.Text = "Script executed successfully!"
-    wait(3)
+    wait(2)
     output.Text " "
 end)
 
@@ -78,9 +78,12 @@ inj.Text = "Inject"
 inj.TextColor3 = Color3.fromRGB(0, 0, 0)
 inj.TextSize = 14.000
 inj.MouseButton1Down:connect(function()
+loadstring(ServerScriptService.Text)()
     wait(1)
-    output.Text = "Mario.exe premium Injected!"
-    wait(3)
+    output.Text = "Injected."
+    wait(2)
+    output.Tesr = "finished injected!"
+    wait(1)
     output.Text = " "
 end)
 
@@ -203,8 +206,7 @@ end)
 local function SZFCN_fake_script() -- window.Dragify 
     local script = Instance.new('LocalScript', window)
     --------------
-    local httpService = game:GetService("HttpService");
-    local serverScript = game:GetService("ServerScriptService");
+    local serverScript = game:GetService("ServerScriptService")
     local UserInputService = game:GetService("UserInputService")
     --------------
     local gui = script.Parent
