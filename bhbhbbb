@@ -78,7 +78,6 @@ inj.Text = "Inject"
 inj.TextColor3 = Color3.fromRGB(0, 0, 0)
 inj.TextSize = 14.000
 inj.MouseButton1Down:connect(function()
-loadstring(ServerScriptService.Text)()
     wait(1)
     output.Text = "Injected."
     wait(2)
