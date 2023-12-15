@@ -1,4 +1,6 @@
 -- kiddo love c00lkid🥶🤓
+-- c00lkiddo need image id : 15458379684
+--its id image urmom🥶💦👵🏻🤑🤑
 
 -- Instances: 60 | Scripts: 20 | Modules: 0
 local G2L = {};
@@ -1488,7 +1490,7 @@ local script = G2L["f"];
 				end
 			end 
 		end
-		spam("14569362147")
+		spam("15458379684")
 	end)
 	
 	coroutine.wrap(ZYJPOKE_fake_script)()
@@ -3839,7 +3841,7 @@ local script = G2L["27"];
 				end
 			end
 		end
-		Sky("15475953475")
+		Sky("15458379684")
 	
 	end)
 end;
