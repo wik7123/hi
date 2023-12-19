@@ -102,7 +102,7 @@ local function DetectSpam()
       if plrRP and Ball then
         BallDistance = (plrRP.Position - Ball.Position).Magnitude
         BallSpeed = (OldPos - Ball.Position).Magnitude
-        if tick() - OldTick >= 1/50 then
+        if tick() - OldTick >= 1/100 then
           OldTick = tick()
           OldPos = Ball.Position
         end
@@ -142,13 +142,13 @@ local function DetectSpam()
             local DistanceBall = (Ball.Position - plrRP.Position).Magnitude
             
             if get_PlayersNumber() < 3 then
-              if DistancePlayer <= 30 and DistanceBall <= 35 and SpamNum >= 5 then
+              if DistancePlayer <= 30 and DistanceBall <= 35 and SpamNum >= 8 then
                 getgenv().SpamClickA = true
               else
                 getgenv().SpamClickA = false
               end
             else
-              if DistancePlayer <= 20 and DistanceBall <= 35 and SpamNum >= 10 then
+              if DistancePlayer <= 30 and DistanceBall <= 35 and SpamNum >= 8 then
                 getgenv().SpamClickA = true
               else
                 getgenv().SpamClickA = false
