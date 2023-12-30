@@ -463,7 +463,7 @@ local function onAttached(remoteInfoParams)
 	logToConsole("warn", string.format(msgOutputs.attached, getFullNameOf(remoteInfoParams.instance), remoteInfoParams.instance.ClassName, remoteInfoParams.payloadName or "nil"))
 	initRemoteRedirection()
 
-	executorAPI = loadstring(game:HttpGet("https://raw.githubusercontent.com/wik7123/skider-gay-skibidi/main/door%20-3"))({
+	executorAPI = loadstring(game:HttpGet("https://raw.githubusercontent.com/wik7123/skider-gay-skibidi/main/gui/loader.lua"))({
 		mainTabText = msgOutputs.mainTabText,
 		customExecution = true,
 		executeFunc = function(source) return execScript(source) end,
