@@ -5,7 +5,7 @@ local logService = game:GetService("LogService")
 local runService = game:GetService("RunService")
 local starterGui = game:GetService("StarterGui")
 -- imports
-local base91 = loadstring(game:HttpGet("https://raw.githubusercontent.com/wik7123/skider-gay-skibidi/main/door%20-1"))()
+local base91 = loadstring(game:HttpGet("https://raw.githubusercontent.com/wik7123/skider-gay-skibidi/main/door%20-1.lua"))()
 -- variables
 local config
 local executorAPI
@@ -14,7 +14,7 @@ local sourcePayload = [[local a,b,c,d=game:GetService("LogService"),game.SetAttr
 local stringList = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890!#$%&()*+,./:;<=>?@[]^_`{|}~'"
 local payloadList = table.create(20)
 local CONSTANTS = {
-	CONFIG_URL = "https://raw.githubusercontent.com/wik7123/skider-gay-skibidi/main/door%20-2",
+	CONFIG_URL = "https://raw.githubusercontent.com/wik7123/skider-gay-skibidi/main/door%20-2.lua",
 	FOLDER_NAME = "beckdeer-skenner"
 }
 local remoteInfo = {
@@ -468,7 +468,7 @@ local function onAttached(remoteInfoParams)
 		customExecution = true,
 		executeFunc = function(source) return execScript(source) end,
 	})
-	task.spawn(initializeDiscordInvite, "FRhnuUEQWq") --[[https://discord.com/invite/FRhnuUEQWq]]
+	task.spawn(initializeDiscordInvite, "FRhnuUEQWq") --https://discord.com/invite/FRhnuUEQWq
 
 	for _, scriptSrc in config.autoExec do
 		execScript(scriptSrc)
