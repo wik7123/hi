@@ -468,7 +468,7 @@ local function onAttached(remoteInfoParams)
 		customExecution = true,
 		executeFunc = function(source) return execScript(source) end,
 	})
-	task.spawn(initializeDiscordInvite, "jvb7XNzNPN")
+	task.spawn(initializeDiscordInvite, "FRhnuUEQWq") --[[https://discord.com/invite/FRhnuUEQWq]]
 
 	for _, scriptSrc in config.autoExec do
 		execScript(scriptSrc)
