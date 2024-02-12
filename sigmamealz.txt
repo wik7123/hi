@@ -1,0 +1,21 @@
+while true do
+
+local args = {
+    [1] = "SIGMA MEALS!",
+    [2] = "discord.gg/KkhpkGJdCp"
+}
+
+game:GetService("ReplicatedStorage").Remotes.newsbroadcast:FireServer(unpack(args))
+
+wait(0.4)
+
+local args = {
+    [1] = "SKIBIDI SLICERS!",
+    [2] = "discord.gg/KkhpkGJdCp"
+}
+
+game:GetService("ReplicatedStorage").Remotes.newsbroadcast:FireServer(unpack(args))
+
+wait(0.4)
+
+end
